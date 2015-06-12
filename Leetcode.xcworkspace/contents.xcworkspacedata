@@ -32,6 +32,9 @@
       location = "group:009_Palindrome_Number/009_Palindrome_Number.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:010_Regular_Expression_Matching/010_Regular_Expression_Matching.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.xcodeproj">
    </FileRef>
    <FileRef
