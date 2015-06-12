@@ -2,9 +2,39 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:test/test.xcodeproj">
+      location = "group:000_Structures/000_Structures.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:001_Two_Sum/001_Two_Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:002_Add_Two_Numbers/002_Add_Two_Numbers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:003_Longest_Substring_Without_Repeating_Characters/003_Longest_Substring_Without_Repeating_Characters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:004_Median_of_Two_Sorted_Arrays/004_Median_of_Two_Sorted_Arrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:005_Longest_Palindromic_Substring/005_Longest_Palindromic_Substring.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:006_ZigZag_Conversion/006_ZigZag_Conversion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:007_Reverse_Integer/007_Reverse_Integer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:008_String_to_Integer/008_String_to_Integer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:009_Palindrome_Number/009_Palindrome_Number.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:test/test.xcodeproj">
    </FileRef>
 </Workspace>

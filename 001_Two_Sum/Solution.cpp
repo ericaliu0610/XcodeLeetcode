@@ -5,6 +5,7 @@
 //  Created by Chao Li on 5/25/15.
 //  Copyright (c) 2015 Chao Li. All rights reserved.
 //
+//	Solution shared at https://leetcode.com/discuss/39776/16ms-c-solution-easy-to-understand
 
 #include "Solution.h"
 
@@ -14,32 +15,14 @@ Solution::Solution()
 
 vector<int> Solution::twoSum(vector<int>& nums, int target)
 {
-	vector<int> result;
-	vector<int> ind(nums.size());
-	for (size_t i = 0; i < ind.size(); i++)
+	std::unordered_map<int,int> store;
+	for (int i = 0; i < nums.size(); ++i)
 	{
-		ind[i] = int(i);
-	}
-	result.reserve(sizeof(int)*2);
-	sort(ind.begin(), ind.end(),[&](size_t i, size_t j){return nums[i] < nums[j];});
-	size_t i = 0;
-	size_t j = nums.size()-1;
-	while (i != j) {
-		int sum = nums[ind[i]]+nums[ind[j]];
-		if (sum == target)
-		{
-			result.push_back(ind[i]);
-			result.push_back(ind[j]);
-		}
-		else if (sum > target)
-		{
-			j--;
-		}
+		auto itr = store.find(nums[i]);
+		if(itr != store.end())
+			return std::vector<int> {itr->second+1,i+1};
 		else
-		{
-			i++;
-		}
+			store[target-nums[i]] = i;
 	}
-	return result;
 }
 

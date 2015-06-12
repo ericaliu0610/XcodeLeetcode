@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4527C0991B1417900047F16A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4527C0981B1417900047F16A /* main.cpp */; };
-		4527C0A11B141A770047F16A /* lib001_Two_Sum.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4527C09F1B1418E60047F16A /* lib001_Two_Sum.a */; };
+		45A285041B14F2C300F87511 /* lib019_Remove_Nth_Node_From_End_of_List.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A285031B14F2C300F87511 /* lib019_Remove_Nth_Node_From_End_of_List.a */; };
+		45A285061B14F2E300F87511 /* lib000_Structures.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A285051B14F2E300F87511 /* lib000_Structures.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		4527C0951B1417900047F16A /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		4527C0981B1417900047F16A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4527C09F1B1418E60047F16A /* lib001_Two_Sum.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib001_Two_Sum.a; path = "../../../../Library/Developer/Xcode/DerivedData/Leetcode-dzrgidsgznwgmmgulkztpvrgewif/Build/Products/Debug/lib001_Two_Sum.a"; sourceTree = "<group>"; };
+		45A285031B14F2C300F87511 /* lib019_Remove_Nth_Node_From_End_of_List.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib019_Remove_Nth_Node_From_End_of_List.a; path = "../../../../Library/Developer/Xcode/DerivedData/Leetcode-cnjtwzacuvamwkfzbugoubdrcthd/Build/Products/Debug/lib019_Remove_Nth_Node_From_End_of_List.a"; sourceTree = "<group>"; };
+		45A285051B14F2E300F87511 /* lib000_Structures.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lib000_Structures.a; path = "../../../../Library/Developer/Xcode/DerivedData/Leetcode-cnjtwzacuvamwkfzbugoubdrcthd/Build/Products/Debug/lib000_Structures.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4527C0A11B141A770047F16A /* lib001_Two_Sum.a in Frameworks */,
+				45A285061B14F2E300F87511 /* lib000_Structures.a in Frameworks */,
+				45A285041B14F2C300F87511 /* lib019_Remove_Nth_Node_From_End_of_List.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,8 @@
 		4527C08C1B1417900047F16A = {
 			isa = PBXGroup;
 			children = (
+				45A285051B14F2E300F87511 /* lib000_Structures.a */,
+				45A285031B14F2C300F87511 /* lib019_Remove_Nth_Node_From_End_of_List.a */,
 				4527C09F1B1418E60047F16A /* lib001_Two_Sum.a */,
 				4527C0971B1417900047F16A /* test */,
 				4527C0961B1417900047F16A /* Products */,
@@ -212,6 +218,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Leetcode-dzrgidsgznwgmmgulkztpvrgewif/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Leetcode-cnjtwzacuvamwkfzbugoubdrcthd/Build/Products/Debug",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -223,6 +230,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Leetcode-dzrgidsgznwgmmgulkztpvrgewif/Build/Products/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Leetcode-cnjtwzacuvamwkfzbugoubdrcthd/Build/Products/Debug",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +255,7 @@
 				4527C09E1B1417900047F16A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
