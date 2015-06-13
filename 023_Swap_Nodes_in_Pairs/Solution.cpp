@@ -7,6 +7,8 @@
 //
 //	Solution shared at https://leetcode.com/discuss/31796/is-there-any-better-c-answer
 
+//Given a linked list, swap every two adjacent nodes and return its head.
+
 #include "Solution.h"
 
 void Solution:: swapNode(ListNode *pre, ListNode *first, ListNode *second)

@@ -45,20 +45,21 @@ vector<int> Solution::findSubstring(string S, vector<string> &L)
 	
 	// This for loop will run nW times, each iteration has a complexity O(nS/nW)
 	// So the overall complexity is O(nW * (nS / nW)) = O(nS)
-	for (int i=0; i<nW; ++i) {
+	for (int i=0; i<nW; ++i)
+	{
 		int j0=i, j1=i, k=0;
 		double sum = 0.;
-		
 		// Use a moving window to hash every L.size() continuous words with length nW in S.
 		// This while loop will terminate within nS/nW iterations since the increasement of j1 is nW,
 		// So the complexity of this while loop is O(nS / nW).
-		while(j1<=nS-nW) {
+		while(j1<=nS-nW)
+		{
 			sum += log(values[j1]);
 			++k;
 			j1 += nW;
-			if (k==nL) {
+			if (k == nL) {
 				int key1 = (sum-floor(sum)) * unit;
-				if (key1==key) result.push_back(j0);
+				if (key1 == key) result.push_back(j0);
 				sum -= log(values[j0]);
 				--k;
 				j0 += nW;

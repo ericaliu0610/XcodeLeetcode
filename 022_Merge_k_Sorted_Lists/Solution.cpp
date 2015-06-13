@@ -7,14 +7,19 @@
 //
 //	Solution shared at https://leetcode.com/discuss/20774/sharing-straightforward-solution-without-structure-vector
 
+//Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+
+
 #include "Solution.h"
 
 ListNode* Solution::mergeKLists(vector<ListNode *> &lists)
 {
-	if (lists.empty()) return NULL;
+	if (lists.empty()) return nullptr;
 	int len = lists.size();
-	while (len > 1) {
-		for (int i = 0; i < len / 2; ++i) {
+	while (len > 1)
+	{
+		for (int i = 0; i < len / 2; ++i)
+		{
 			lists[i] = mergeTwoLists(lists[i], lists[len - 1 - i]);
 		}
 		len = (len + 1) / 2;
@@ -25,13 +30,15 @@ ListNode* Solution::mergeKLists(vector<ListNode *> &lists)
 
 ListNode* Solution::mergeTwoLists(ListNode *l1, ListNode *l2)
 {
-	if (NULL == l1) return l2;
-	else if (NULL == l2) return l1;
-	if (l1->val <= l2->val) {
+	if (nullptr == l1) return l2;
+	else if (nullptr == l2) return l1;
+	if (l1->val <= l2->val)
+	{
 		l1->next = mergeTwoLists(l1->next, l2);
 		return l1;
 	}
-	else {
+	else
+	{
 		l2->next = mergeTwoLists(l1, l2->next);
 		return l2;
 	}

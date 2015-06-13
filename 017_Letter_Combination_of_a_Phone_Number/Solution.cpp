@@ -13,18 +13,18 @@ vector<string> Solution::letterCombinations(string &digits)
 {
 	if (digits.size() == 0)
 	{
-		return vector<string>;
+		return vector<string>();
 	}
 	vector<string> res;
 	string charmap[10] = {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 	res.push_back("");
-	for (int i = 0; i < digits.size(); i++)
+	for (const auto& i : digits)
 	{
 		vector<string> tempres;
-		string chars = charmap[digits[i] - '0'];
-		for (int c = 0; c < chars.size();c++)
-			for (int j = 0; j < res.size();j++)
-				tempres.push_back(res[j]+chars[c]);
+		string chars = charmap[i - '0'];
+		for (const auto& c : chars)
+			for (const auto& j : res)
+				tempres.push_back(j+c);
 		res = tempres;
 	}
 	return res;

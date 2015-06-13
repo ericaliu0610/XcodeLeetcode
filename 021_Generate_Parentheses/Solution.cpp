@@ -7,6 +7,9 @@
 //
 //	Solution shared at https://leetcode.com/discuss/14436/concise-recursive-c-solution
 
+//Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+
 #include "Solution.h"
 
 vector<string> Solution::generateParenthesis(int n)

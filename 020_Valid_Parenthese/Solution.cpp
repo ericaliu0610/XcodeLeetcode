@@ -7,6 +7,10 @@
 //
 //	Solution shared at https://leetcode.com/discuss/21440/sharing-my-simple-cpp-code-with-2ms
 
+//Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+//
+//The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
 #include "Solution.h"
 
 bool Solution::isValid(string s)
@@ -17,14 +21,15 @@ bool Solution::isValid(string s)
 	bran_dict[')'] = '(';
 	bran_dict[']'] = '[';
 	bran_dict['}'] = '{';
-	for (int i=0; i<s.size(); i++) {
-		temp = s[i];
-		if (temp == ')' || temp == '}' || temp == ']') {
+	for (auto& c : s)
+	{
+		temp = c;
+		if (temp == ')' || temp == '}' || temp == ']')
+		{
 			if (stk.empty() || stk.top() != bran_dict[temp])
 				return false;
-			else {
+			else
 				stk.pop();
-			}
 		}
 		else
 			stk.push(temp);
