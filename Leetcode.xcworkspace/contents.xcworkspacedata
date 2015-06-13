@@ -2,40 +2,88 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:000_Structures/000_Structures.xcodeproj">
+      location = "group:030_Substring_With_Concatenation_of_All_Words/030_Substring_With_Concatenation_of_All_Words.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:001_Two_Sum/001_Two_Sum.xcodeproj">
+      location = "group:029_Divide_Two_Integers/029_Divide_Two_Integers.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:002_Add_Two_Numbers/002_Add_Two_Numbers.xcodeproj">
+      location = "group:028_Implement_strStr/028_Implement_strStr.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:003_Longest_Substring_Without_Repeating_Characters/003_Longest_Substring_Without_Repeating_Characters.xcodeproj">
+      location = "group:027_Remove_Element/027_Remove_Element.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:004_Median_of_Two_Sorted_Arrays/004_Median_of_Two_Sorted_Arrays.xcodeproj">
+      location = "group:025_Remove_Duplicates_from_Sorted_Array/025_Remove_Duplicates_from_Sorted_Array.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:005_Longest_Palindromic_Substring/005_Longest_Palindromic_Substring.xcodeproj">
+      location = "group:024_Reverse_Nodes_in_k-Group/024_Reverse_Nodes_in_k-Group.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:006_ZigZag_Conversion/006_ZigZag_Conversion.xcodeproj">
+      location = "group:023_Swap_Nodes_in_Pairs/023_Swap_Nodes_in_Pairs.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:007_Reverse_Integer/007_Reverse_Integer.xcodeproj">
+      location = "group:022_Merge_k_Sorted_Lists/022_Merge_k_Sorted_Lists.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:008_String_to_Integer/008_String_to_Integer.xcodeproj">
+      location = "group:021_Generate_Parentheses/021_Generate_Parentheses.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:009_Palindrome_Number/009_Palindrome_Number.xcodeproj">
+      location = "group:020_Valid_Parenthese/020_Valid_Parenthese.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:018_4Sum/018_4Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:017_Letter_Combination_of_a_Phone_Number/017_Letter_Combination_of_a_Phone_Number.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:016_3Sum_Closest/016_3Sum_Closest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:015_3Sum/015_3Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:012_Longest_Common_Prefix/012_Longest_Common_Prefix.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:011_Container_With_Most_Water/011_Container_With_Most_Water.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:010_Regular_Expression_Matching/010_Regular_Expression_Matching.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.xcodeproj">
+      location = "group:009_Palindrome_Number/009_Palindrome_Number.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:008_String_to_Integer/008_String_to_Integer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:007_Reverse_Integer/007_Reverse_Integer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:006_ZigZag_Conversion/006_ZigZag_Conversion.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:005_Longest_Palindromic_Substring/005_Longest_Palindromic_Substring.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:004_Median_of_Two_Sorted_Arrays/004_Median_of_Two_Sorted_Arrays.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:003_Longest_Substring_Without_Repeating_Characters/003_Longest_Substring_Without_Repeating_Characters.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:002_Add_Two_Numbers/002_Add_Two_Numbers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:001_Two_Sum/001_Two_Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:000_Structures/000_Structures.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:test/test.xcodeproj">

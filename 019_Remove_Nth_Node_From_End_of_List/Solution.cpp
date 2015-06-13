@@ -5,6 +5,7 @@
 //  Created by Chao Li on 5/26/15.
 //  Copyright (c) 2015 Chao Li. All rights reserved.
 //
+//	Solution shared at https://leetcode.com/discuss/16936/my-short-c-solution
 
 #include "Solution.h"
 
@@ -14,21 +15,19 @@ Solution::Solution()
 
 ListNode* Solution::removeNthFromEnd(ListNode* head, int n)
 {
-	ListNode* r;
-	recursive(head, 0, n, r);
+	ListNode** t1 = &head, *t2 = head;
+	for(int i = 1; i < n; ++i)
+	{
+		t2 = t2->next;
+	}
+	while(t2->next != nullptr)
+	{
+		t1 = &((*t1)->next);
+		t2 = t2->next;
+	}
+	*t1 = (*t1)->next;
 	return head;
 }
 
-void Solution::recursive(ListNode* h, int d, int n, ListNode* r)
-{
-	if (!h->next)
-	{
-		l = d;
-		return;
-	}
-	recursive(h->next, d+1, n, r);
-	if (l-d == n-1)
-	{
-		h->next = h->next->next;
-	}
-}
+
+
