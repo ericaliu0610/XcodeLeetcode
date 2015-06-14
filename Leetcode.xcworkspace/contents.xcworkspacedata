@@ -2,6 +2,48 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:045_Jump_Game_II/045_Jump_Game_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:044_Wildcard_Matching/044_Wildcard_Matching.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:043_Multiply_Strings/043_Multiply_Strings.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:042_Trapping_Rain_Water/042_Trapping_Rain_Water.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:041_First_Missing_Positive/041_First_Missing_Positive.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:040_Combination_Sum_II/040_Combination_Sum_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:039_Combination_Sum/039_Combination_Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:038_Count_and_Say/038_Count_and_Say.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:036_Valid_Sudoku/036_Valid_Sudoku.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:035_Search_Insert_Position/035_Search_Insert_Position.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:034_Search_for_a_Range/034_Search_for_a_Range.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:032_Longest_Valid_Parentheses/032_Longest_Valid_Parentheses.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:031_Next_Permutation/031_Next_Permutation.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:030_Substring_With_Concatenation_of_All_Words/030_Substring_With_Concatenation_of_All_Words.xcodeproj">
    </FileRef>
    <FileRef
