@@ -7,6 +7,12 @@
 //
 //	Solution shared at https://leetcode.com/discuss/7609/my-o-n-solution-using-a-stack
 
+//Given a string containing just the characters '(' and ')', find the length of the longest valid (well-formed) parentheses substring.
+//
+//For "(()", the longest valid parentheses substring is "()", which has length = 2.
+//
+//Another example is ")()())", where the longest valid parentheses substring is "()()", which has length = 4.
+
 #include "Solution.h"
 
 int Solution::longestValidParentheses(string s)
@@ -15,8 +21,10 @@ int Solution::longestValidParentheses(string s)
 	stack<int> st;
 	for (int i = 0; i < n; i++) {
 		if (s[i] == '(') st.push(i);
-		else {
-			if (!st.empty()) {
+		else
+		{
+			if (!st.empty())
+			{
 				if (s[st.top()] == '(') st.pop();
 				else st.push(i);
 			}
@@ -24,9 +32,11 @@ int Solution::longestValidParentheses(string s)
 		}
 	}
 	if (st.empty()) longest = n;
-	else {
+	else
+	{
 		int a = n, b = 0;
-		while (!st.empty()) {
+		while (!st.empty())
+		{
 			b = st.top(); st.pop();
 			longest = max(longest, a-b-1);
 			a = b;

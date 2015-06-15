@@ -2,6 +2,96 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:075_Sort_Colors/075_Sort_Colors.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:074_Search_a_2D_Matrix/074_Search_a_2D_Matrix.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:073_Set_Matrix_Zeroes/073_Set_Matrix_Zeroes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:072_Edit_Distance/072_Edit_Distance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:071_Simplify_Path/071_Simplify_Path.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:070_Climbing_Stairs/070_Climbing_Stairs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:069_Sqrt/069_Sqrt.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:068_Text_Justification/068_Text_Justification.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:067_Add_Binary/067_Add_Binary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:066_Plus_One/066_Plus_One.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:065_Valid_Number/065_Valid_Number.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:064_Minimum_Path_Sum/064_Minimum_Path_Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:063_Unique_Paths_II/063_Unique_Paths_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:062_Unique_Paths/062_Unique_Paths.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:061_Rotate_List/061_Rotate_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:060_Permutation_Sequence/060_Permutation_Sequence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:059_Spiral_Matrix_II/059_Spiral_Matrix_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:058_Length_of_Last_Word/058_Length_of_Last_Word.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:057_Insert_Interval/057_Insert_Interval.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:056_Merge_Intervals/056_Merge_Intervals.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:055_Jump_Game/055_Jump_Game.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:054_Spiral_Matrix/054_Spiral_Matrix.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:053_Maximum_Subarray/053_Maximum_Subarray.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:052_N-Queens/052_N-Queens.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:051_N-Queens/051_N-Queens.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:050_Pow/050_Pow.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:049_Anagrams/049_Anagrams.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:048_Rotate_Image/048_Rotate_Image.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:047_Permutations_II/047_Permutations_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:046_Permutations/046_Permutations.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:045_Jump_Game_II/045_Jump_Game_II.xcodeproj">
    </FileRef>
    <FileRef
