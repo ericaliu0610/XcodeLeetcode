@@ -25,4 +25,11 @@ struct Interval
 	Interval() : start(0), end(0) {}
 	Interval(int s, int e) : start(s), end(e) {}
 };
+
+struct TreeNode {
+     int val;
+     TreeNode *left;
+     TreeNode *right;
+     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
 #endif /* defined(___00_Structures__Structures__) */

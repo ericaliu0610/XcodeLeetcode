@@ -2,6 +2,93 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:104_Maximum_Depth_of_Binary_Tree/104_Maximum_Depth_of_Binary_Tree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:103_BInary_Tree_Zigzag_Level_Order_Traversal/103_BInary_Tree_Zigzag_Level_Order_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:102_Binary_Tree_Level_Order_Traversal/102_Binary_Tree_Level_Order_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:101_Symmetric_Tree/101_Symmetric_Tree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:100_Same_Tree/100_Same_Tree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:099_Recover_Binary_Search_Tree/099_Recover_Binary_Search_Tree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:098_Valid_Binary_Search_Tree/098_Valid_Binary_Search_Tree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:097_Interleaving_String/097_Interleaving_String.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:095_Unique_Binary_Search_Trees_II/095_Unique_Binary_Search_Trees_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:094_Binary_Tree_Inorder_Traversal/094_Binary_Tree_Inorder_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:093_Restore_IP_Addresses/093_Restore_IP_Addresses.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:092_Reverse_Linked_List_II/092_Reverse_Linked_List_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:091_Decode_Ways/091_Decode_Ways.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:090_Subsets_II/090_Subsets_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:089_Gray_Code/089_Gray_Code.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:088_Merge_Sorted_Array/088_Merge_Sorted_Array.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:087_Scamble_String/087_Scamble_String.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:086_Partition_List/086_Partition_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:085_Maximal_Rectangle/085_Maximal_Rectangle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:084_Largest_Rectangle_in_Histogram/084_Largest_Rectangle_in_Histogram.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:083_Remove_Duplicates_from_Sorted_List/083_Remove_Duplicates_from_Sorted_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:082_Remove_Duplicates_from_Sorted_List_II/082_Remove_Duplicates_from_Sorted_List_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:081_Search_in_Rotated_Sorted_Array_II/081_Search_in_Rotated_Sorted_Array_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:080_Remove_Duplicates_from_Sorted_Array_II/080_Remove_Duplicates_from_Sorted_Array_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:079_Word_Search/079_Word_Search.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:078_Subsets/078_Subsets.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:077_Combinations/077_Combinations.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:076_Minimum_Window_Substring/076_Minimum_Window_Substring.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:075_Sort_Colors/075_Sort_Colors.xcodeproj">
    </FileRef>
    <FileRef
