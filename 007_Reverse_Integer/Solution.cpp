@@ -11,7 +11,7 @@
 
 int Solution::reverse(int x)
 {
-	long result = 0;
+	long long result = 0;
 	while(x != 0)
 	{
 		result = result*10 + x % 10;

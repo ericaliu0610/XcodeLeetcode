@@ -14,10 +14,12 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
+
 class Solution
 {
 public:
     Solution();
     vector<int> twoSum(vector<int>& nums, int target);
 };
+
 #endif /* defined(___01_Two_Sum__Solution__) */

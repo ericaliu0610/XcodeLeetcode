@@ -15,12 +15,13 @@ string Solution::convert(string s, int numRows)
 	vector<string> vecstr(numRows);
 	string res;
 	int bounce = 0, direct = 1;
-	for (int i = 0; i<=s.size()-1; ++i) {
+	for (int i = 0; i<s.size(); ++i) {
 		vecstr[bounce].push_back(s[i]);
 		if (bounce == numRows-1) direct = -1;
 		else if (bounce == 0) direct = 1;
 		bounce += direct;
 	}
-	for (int i = 0; i<=numRows-1; ++i) res += vecstr[i];
+	for (auto& c : s)
+		res += c;
 	return res;
 }

@@ -14,17 +14,17 @@ int Solution::lengthOfLongestSubstring(string s)
 	vector<int> v(256, -1);
 	int last = 0;
 	int ans = 0;
-	for (int i = 0; i < s.length(); i++)
+	for (auto& c : s)
 	{
-		if (v[s[i]] == -1 || v[s[i]] < last)
+		if (v[c] == -1 || v[c] < last)
 		{
 			ans = max(ans, i-last+1);
 		}
 		else
 		{
-			last = v[s[i]]+1;
+			last = v[c]+1;
 		}
-		v[s[i]] = i;
+		v[c] = i++;
 	}
 	
 	return ans;

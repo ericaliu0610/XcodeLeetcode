@@ -9,20 +9,15 @@
 
 #include "Solution.h"
 
-Solution::Solution()
-{
-}
-
 vector<int> Solution::twoSum(vector<int>& nums, int target)
 {
 	std::unordered_map<int,int> store;
 	for (int i = 0; i < nums.size(); ++i)
 	{
 		auto itr = store.find(nums[i]);
-		if(itr != store.end())
+		if (itr != store.end())
 			return std::vector<int> {itr->second+1,i+1};
 		else
 			store[target-nums[i]] = i;
 	}
 }
-
