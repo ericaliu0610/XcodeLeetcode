@@ -2,6 +2,96 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:150_Evaluate_Reverse_Polish_Notation/150_Evaluate_Reverse_Polish_Notation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:149_Max_Points_on_a_Line/149_Max_Points_on_a_Line.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:148_Sort_List/148_Sort_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:147_Insertion_Sort_List/147_Insertion_Sort_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:146_LRU_Cache/146_LRU_Cache.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:145_Binary_Tree_Postorder_Traversal/145_Binary_Tree_Postorder_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:144_Binary_Tree_Preorder_Traversal/144_Binary_Tree_Preorder_Traversal.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:143_Reorder_List/143_Reorder_List.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:142_Linked_List_Cycle_II/142_Linked_List_Cycle_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:141_Linked_List_Cycle/141_Linked_List_Cycle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:140_Word_Break_II/140_Word_Break_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:139_Word_Break/139_Word_Break.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:138_Copy_List_with_Random_Pointer/138_Copy_List_with_Random_Pointer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:137_Single_Number_II/137_Single_Number_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:136_Single_Number/136_Single_Number.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:135_Candy/135_Candy.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:134_Gas_Station/134_Gas_Station.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:133_Clone_Graph/133_Clone_Graph.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:132_Palindrome_Partitioning_II/132_Palindrome_Partitioning_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:131_Palindrome_Partitioning/131_Palindrome_Partitioning.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:130_Surrounded_Regions/130_Surrounded_Regions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:129_Sum_Root_to_Leaf_Numbers/129_Sum_Root_to_Leaf_Numbers.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:128_Longest_Consecutive_sequence/128_Longest_Consecutive_sequence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:127_Word_Ladder/127_Word_Ladder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:126_Word_Ladder_II/126_Word_Ladder_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:125_Valid_Palindrome/125_Valid_Palindrome.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:124_Binary_Tree_Maximum_Path_Sum/124_Binary_Tree_Maximum_Path_Sum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:123_Best_Time_to_Buy_and_Sell_Stock_III/123_Best_Time_to_Buy_and_Sell_Stock_III.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:122_Best_Time_to_Buy_and_Sell_Stock_II/122_Best_Time_to_Buy_and_Sell_Stock_II.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:121_Best_Time_to_Buy_and_Sell_Stock/121_Best_Time_to_Buy_and_Sell_Stock.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:120_Triangle/120_Triangle.xcodeproj">
    </FileRef>
    <FileRef

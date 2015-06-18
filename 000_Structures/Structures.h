@@ -8,6 +8,8 @@
 
 #ifndef ___00_Structures__Structures__
 #define ___00_Structures__Structures__
+#include <vector>
+using namespace std;
 
 class ListNode
 {
@@ -38,4 +40,23 @@ struct TreeLinkNode {
 	TreeLinkNode *left, *right, *next;
 	TreeLinkNode(int x) : val(x), left(nullptr), right(nullptr), next(nullptr) {}
  };
+
+struct UndirectedGraphNode {
+	int label;
+	vector<UndirectedGraphNode *> neighbors;
+	UndirectedGraphNode(int x) : label(x) {};
+};
+
+struct RandomListNode {
+	int label;
+	RandomListNode *next, *random;
+	RandomListNode(int x) : label(x), next(nullptr), random(nullptr) {}
+};
+
+struct Point {
+	int x;
+	int y;
+	Point() : x(0), y(0) {}
+	Point(int a, int b) : x(a), y(b) {}
+};
 #endif /* defined(___00_Structures__Structures__) */
